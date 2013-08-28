@@ -1,14 +1,14 @@
-from scrape2 import get_categories
-
 def slugify(s):
     import unicodedata
     import re
     s = unicodedata.normalize('NFKD', s)
     s = s.encode('ascii', 'ignore')
-    s = re.sub(r'[^a-zA-Z0-9\-\/]+', '+', s)
+    s = re.sub(r'[^a-zA-Z0-9\-\/,\']+', '+', s)
     s = re.sub(r'\/', '%2f', s)
+    s = re.sub(r',', '%2c', s)
+    s = re.sub(r'\'', '%27', s)
     s = re.sub(r'[-]+', '-', s)
-    print s
+    # print s
     return s
 
 def total_count(dept):
@@ -40,9 +40,12 @@ def total_count(dept):
         elif i.startswith('No classes match your request'):
             num_matches = None
             break
+        elif i.startswith('Information about courses'):
+            return -1 # Information about courses are on an external site
+            # TODO: actually scrape the other page that is linked
     if not num_matches:
         return 0
-    print num_matches
+    # print 'num_matches', num_matches
     m = re.search('Displaying ([\d]+)-([\d]+) of ([\d]+)', num_matches)
     if m:
         # print m.group(0),m.group(1),m.group(2),m.group(3)
@@ -56,16 +59,38 @@ def total_count(dept):
 
     return num_matches
 
+def save_all_classifications():
+    from scrape2 import get_categories
+    import datetime
+    today = datetime.datetime.today()
+    today = today.strftime("classif-%m-%d-%Y-%H-%M")
+    today_filename = today + '.txt'
+    f = open(today_filename, 'w')
+
+    categories = get_categories()
+
+    # TODO: Finish this method
+
+def save_all_dept():
+    from scrape2 import get_type
+    import datetime
+    today = datetime.datetime.today()
+    today = today.strftime("dept-%m-%d-%Y-%H-%M")
+    today_filename = today + '.txt'
+    f = open(today_filename, 'w')
+
+    dept_names = get_type('Department Name')
+    for dept in dept_names:
+        # print type(dept)
+        # print '-',dept,'-'
+        # print dept, ':', total_count(unicode(dept))
+        print "%s : %d" % (dept, total_count(unicode(dept)))
+        f.write("%s : %d\n" % (dept, total_count(unicode(dept))))
+
+    f.close()
 
 if __name__ == '__main__':
-    categories = get_categories()
-    dept_names = categories['Department Name']
-    dept_names = dept_names[20:]
-    # print dept_names
-    for dept in dept_names:
-        print type(dept)
-        print '-',dept,'-'
-        print dept, ':', total_count(unicode(dept))
+    save_all_dept()
 
 # TODO: Brainstorm ideas for how to make this code more extendable.
 #       More generalized and more modularized.

@@ -1,0 +1,162 @@
+Aerospace Studies : 4
+African American Studies : 66
+Afrikaans : 0
+Agricultural and Environmental Chemistry : 1
+Agricultural and Resource Economics and Policy : 19
+Altaic : 0
+American Studies : 25
+Ancient History and Mediterranean Archaeology : 1
+Anthropology : 158
+Applied Science and Technology : 5
+Arabic : 14
+Architecture : 80
+Asian American Studies Program : 91
+Asian Studies : 24
+Astronomy : 64
+Bengali : 1
+Bioengineering : 202
+Biology : 68
+Biophysics : 3
+Buddhist Studies : 21
+Business Administration Undergraduate Program : 141
+Business Administration Full-time Masters : 1
+Business Administration Evening/Weekend MBA Program : 0
+Business Administration Doctoral Program : 19
+Catalan : 0
+Celtic Studies : 15
+Chemical and Biomolecular Engineering : 101
+Chemistry : 391
+Chicano Studies Program : 44
+Chinese : 57
+City and Regional Planning : 70
+Civil and Environmental Engineering : 143
+Classics : 48
+Cognitive Science : 19
+College Writing Program : 57
+Comparative Biochemistry : 2
+Comparative Literature : 54
+Computational Biology : 4
+Computer Science : 310
+Critical Theory Graduate Group : 3
+Cuneiform : 5
+Demography : 26
+Development Practice : 9
+Development Studies : 15
+Dutch : 8
+Earth and Planetary Science : 83
+East Asian Languages and Cultures : 17
+East European Studies : 4
+Economics : 195
+Education : 242
+Egyptian : 2
+Electrical Engineering : 241
+Energy and Resources Group : 50
+Engineering : 82
+English : 162
+Environmental Design : 28
+Environmental Economics and Policy : 55
+Environmental Science, Policy, and Management : 202
+Environmental Sciences : 7
+Ethnic Studies : 99
+Ethnic Studies Graduate Group : 15
+Eurasian Studies : 2
+Filipino : 6
+Film and Media : 82
+Folklore : 3
+French : 67
+Gender and Women's Studies : 44
+Geography : 119
+German : 74
+Global Metropolitan Studies : 2
+Global Poverty and Practice : 33
+Graduate Student Professional Development Program : 0
+Greek : 9
+Health and Medical Sciences : 5
+Hebrew : 8
+Hindi-Urdu : 10
+History : 196
+History of Art : 83
+Indigenous Languages of the Americas : 0
+Industrial Engineering and Operations Research : 39
+Information : 43
+Integrative Biology : 170
+Interdisciplinary Studies Field Major : 25
+International and Area Studies : 43
+Iranian : 0
+Italian Studies : 54
+Japanese : 53
+Jewish Studies : 3
+Journalism : 8
+Khmer : 3
+Korean : 32
+Landscape Architecture : 57
+Language Proficiency Program : 2
+Latin : 12
+Latin American Studies : 8
+Law : -1
+Legal Studies : 67
+Lesbian, Gay, Bisexual and Transgender Studies : 13
+Letters and Science : 102
+Linguistics : 68
+Malay/Indonesian : 3
+Materials Science and Engineering : 60
+Mathematics : 345
+Mechanical Engineering : 149
+Media Studies : 27
+Medieval Studies : 0
+Middle Eastern Studies : 2
+Military Affairs : 3
+Military Science : 5
+Molecular and Cell Biology : 421
+Music : 166
+Nanoscale Science and Engineering : 3
+Native American Studies : 32
+Natural Resources : 2
+Naval Science : 6
+Near Eastern Studies : 37
+Neuroscience : 67
+New Media : 10
+Nuclear Engineering : 37
+Nutritional Sciences and Toxicology : 88
+Optometry : 47
+Peace and Conflict Studies : 19
+Persian : 6
+Philosophy : 44
+Physical Education : 100
+Physics : 359
+Plant and Microbial Biology : 62
+Political Economy : 21
+Political Science : 139
+Portuguese : 18
+Practice of Art : 75
+Psychology : 224
+Public Health : 266
+Public Policy : 80
+Punjabi : 3
+Religious Studies : 13
+Rhetoric : 57
+Sanskrit : 3
+Scandinavian : 38
+Science and Mathematics Education : 7
+Science and Technology Studies : 2
+Semitics : 1
+Slavic Languages and Literatures : 66
+Social Welfare : 97
+Sociology : 140
+South and Southeast Asian Studies : 53
+South Asian : 11
+Southeast Asian : 4
+Spanish : 87
+Statistics : 137
+Tagalog : 0
+Tamil : 4
+Telugu : 1
+Thai : 2
+Theater, Dance, and Performance Studies : 68
+Tibetan : 2
+Turkish : 2
+Undergraduate and Interdisciplinary Studies : 32
+Vietnamese : 6
+Vision Science : 30
+Visual Studies : 5
+Yiddish : 2

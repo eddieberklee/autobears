@@ -1,5 +1,11 @@
-
 def get_categories():
+    category = 'Department Name'
+    categories = get_type(category)
+    return categories
+
+def get_type(category):
+    # Saves everything to a hash but only returns the type you requested,
+    # by supplying the input type as a key to the hash.
     import urllib2
     from bs4 import BeautifulSoup
 
@@ -14,7 +20,7 @@ def get_categories():
 
     table = soup.find('table')
     trs = table.find_all('tr')
-    categories = {}
+    types = {}
     for tr in trs:
         tds = tr.find_all('td')
         counter = 0
@@ -28,13 +34,13 @@ def get_categories():
                         dept_names = td.find_all('option')
                         dept_names = map(lambda d:d.get_text(), dept_names)
                         dept_names = dept_names[1:]
-                        categories[category_title] = dept_names
+                        types[category_title] = dept_names
                     else:
                         category_options = td.get_text().strip()
                         # print 'CATEGORY_OPTIONS',category_options
-                        categories[category_title] = category_options
+                        types[category_title] = category_options
             counter += 1
-    return categories
+    return types[category]
 
 categories = get_categories()
 # print categories['Department Name']
