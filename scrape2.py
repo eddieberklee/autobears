@@ -42,7 +42,7 @@ def get_type(category):
             counter += 1
     return types[category]
 
-categories = get_categories()
+# categories = get_categories()
 # print categories['Department Name']
 
 
